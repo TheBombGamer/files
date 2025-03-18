@@ -1,0 +1,1 @@
+const currentUrl = window.location.href;const domain = new URL(currentUrl).hostname;document.getElementById('domain').textContent = domain;const buyDomainLink = document.getElementById('buyDomainLink');buyDomainLink.href = `https://domains.kyle-hosting.xyz/buy?domain=${encodeURIComponent(domain)}`;
