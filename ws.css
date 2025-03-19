@@ -1,7 +1,57 @@
-body{background:linear-gradient(317deg,#020024ff 0%,#06065aff 36%,#090979ff 55%,#055db0ff 71%,#00d4ffff 100%);display:flex;justify-content:center;align-items:center;height:100vh;font-family:Arial,sans-serif;margin:0;}
-.content{text-align:center;z-index:1}
-.button-container{margin-top:20px}
-.fancy-button{display:inline-block;padding:15px 30px;font-size:18px;color:#fff;background-color:#007BFF;border:none;border-radius:25px;text-decoration:none;text-align:center;transition:background-color 0.3s,transform .3s;box-shadow:0 4px 15px #007bff80}
-.fancy-button:hover{background-color:#0056b3;transform:translateY(-3px);box-shadow:0 6px 20px #007bffb3}
-.fancy-button:active{transform:translateY(1px);box-shadow:0 3px 10px #007bff80}
-.footer{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);background-color:#fffc;padding:10px 20px;border-radius:25px;box-shadow:0 4px 10px #0003;text-align:center;z-index:1}
+body {
+    background: linear-gradient(317deg, #020024ff 0%, #06065aff 36%, #090979ff 55%, #055db0ff 71%, #00d4ffff 100%);
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.content {
+    z-index: 1;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.fancy-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 25px;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.3s;
+    box-shadow: 0 4px 15px rgba(0, 123, 255, 0.5);
+}
+
+.fancy-button:hover {
+    background-color: #0056b3;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 123, 255, 0.7);
+}
+
+.fancy-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 3px 10px rgba(0, 123, 255, 0.5);
+}
+
+.footer {
+    position: relative;
+    margin-top: 20px;
+    background-color: #fffc;
+    padding: 10px 20px;
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    z-index: 1;
+}
