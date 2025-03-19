@@ -1,4 +1,4 @@
-body{background:linear-gradient(317deg,#020024ff 0%,#06065aff 36%,#090979ff 55%,#055db0ff 71%,#00d4ffff 100%);display:flex;justify-content:center;align-items:center;height:100vh;font-family:Arial,sans-serif;margin:0;position:relative}
+body{background:linear-gradient(317deg,#020024ff 0%,#06065aff 36%,#090979ff 55%,#055db0ff 71%,#00d4ffff 100%);display:flex;justify-content:center;align-items:center;height:100vh;font-family:Arial,sans-serif;margin:0;}
 .content{text-align:center;z-index:1}
 .button-container{margin-top:20px}
 .fancy-button{display:inline-block;padding:15px 30px;font-size:18px;color:#fff;background-color:#007BFF;border:none;border-radius:25px;text-decoration:none;text-align:center;transition:background-color 0.3s,transform .3s;box-shadow:0 4px 15px #007bff80}
